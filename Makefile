@@ -1,7 +1,7 @@
 NAME := $(shell basename $(shell pwd) | sed 's/docker-//g')
 #
-GITHUB_USER := marcelocorreia
-DOCKER_NAMESPACE := marcelocorreia
+GITHUB_USER := brcz
+DOCKER_NAMESPACE := brcz
 IMAGE_NAME := $(DOCKER_NAMESPACE)/$(NAME)
 GIT_REPO_NAME := docker-$(NAME)
 

@@ -2,7 +2,7 @@ FROM hashicorp/terraform
 
 MAINTAINER marcelo correia <marcelo@correia.io>
 
-ARG terraform_version="0.11.3"
+ARG terraform_version="0.12.24"
 
 RUN apk update
 
